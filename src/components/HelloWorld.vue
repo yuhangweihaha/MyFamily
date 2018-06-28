@@ -22,8 +22,8 @@
           <el-dropdown @command="handleCommand" trigger="click">
             <span class="el-dropdown-link">联系我们</span>
             <el-dropdown-menu class="uuu" slot="dropdown" style="padding: 0 30px;position: absolute; top: 51px; left: 903px;">
-              <el-dropdown-item command=" q ">联系于航伟</el-dropdown-item>
-              <el-dropdown-item command="b">联系边亚楠</el-dropdown-item>
+              <el-dropdown-item command=" q ">联系老于</el-dropdown-item>
+              <el-dropdown-item command="b">联系老边</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
         </div>
