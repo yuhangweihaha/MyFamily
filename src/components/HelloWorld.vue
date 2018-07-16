@@ -3,7 +3,7 @@
     <header class="header">
       <div class="imgs"></div>
       <ul>
-         <li  v-for=" (opt,index) in indexs" @click="toggle(index)" :class="{'light':index ==checkindex }"><router-link  :to="{name:opt.data}"  tag="span" >{{opt.data}}</router-link></li>
+         <li  v-for=" (opt,index) in indexs" @click="toggle(index)" :class="{'light':index ===checkindex }"><router-link :to="{name:opt.data}" tag="span" >{{opt.data}}</router-link></li>
       </ul>
       <!--关注我们-->
       <div class="jishe">
